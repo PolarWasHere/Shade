@@ -1,4 +1,4 @@
-Arctic = {}
+local Arctic = {}
 
 function Arctic:Start(A, B)
     local DefaultColor = Color3.fromRGB(0, 51, 102)
@@ -646,3 +646,5 @@ function Arctic:Start(A, B)
         game:GetService("StarterGui"):SetCore("SendNotification", {Title = A, Text = B, Duration = DurationTime})
     end
 end
+
+return Arctic
