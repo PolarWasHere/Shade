@@ -1,5 +1,7 @@
 local Arctic = {}
 
+Arctic.__index = Arctic
+
 function Arctic:Start(A, B)
     local DefaultColor = Color3.fromRGB(0, 51, 102)
     local IgnoreDuplicates = false
